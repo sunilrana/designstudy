@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_music">MUSIC</string>
+    <string name="text_schedules">SCHEDULE</string>
+    <string name="text_favorites">Favs</string>
+
+    <string-array name="account_arrays">
+        <item>CHASE PREMIER (…1396) $492.05</item>
+        <item>CHASE PREMIER (…1346) $200.95</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/res/merged/androidTest/debug/color_calendar_text_selector.xml.flat",
+        "source": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/bundles/debug/res/color/calendar_text_selector.xml"
+    },
+    {
+        "merged": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/res/merged/androidTest/debug/layout_month.xml.flat",
+        "source": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/bundles/debug/res/layout/month.xml"
+    },
+    {
+        "merged": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/res/merged/androidTest/debug/drawable_calendar_bg_selector.xml.flat",
+        "source": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/bundles/debug/res/drawable/calendar_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/res/merged/androidTest/debug/layout_week.xml.flat",
+        "source": "/Users/natarajan/Documents/Michel/MyApplication2/calender_library/build/intermediates/bundles/debug/res/layout/week.xml"
+    }
+]
