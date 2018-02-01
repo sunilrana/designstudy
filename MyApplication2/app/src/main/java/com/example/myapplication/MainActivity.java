@@ -41,7 +41,13 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showDialog();
+                // to show calender
+//                showCalenderDialog();
+
+                showPaymentDetails();
+
+                // to show payement dialog
+
             }
         });
     }
@@ -80,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
 
     }
 
-    private void showDialog(){
+    private void showCalenderDialog(){
 //        Dialog alertDialog =new Dialog(this,R.style.full_screen_dialog);
 //
 //        LayoutInflater inflater = this.getLayoutInflater();
@@ -114,6 +120,17 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
                 .inMode(CalendarPickerView.SelectionMode.SINGLE) //
                 .withSelectedDate(new Date());
         dialog.show();
+    }
+
+    private void showPaymentDetails(){
+        Dialog dialog=new Dialog(this);
+        dialog.setContentView(R.layout.amount_dialog);
+        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+        lp.copyFrom(dialog.getWindow().getAttributes());
+        lp.width = WindowManager.LayoutParams.MATCH_PARENT;
+        lp.height = WindowManager.LayoutParams.MATCH_PARENT;
+        dialog.show();
+        dialog.getWindow().setAttributes(lp);
     }
 
 
