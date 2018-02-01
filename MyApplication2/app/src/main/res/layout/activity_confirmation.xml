@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/images"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:textSize="18sp"
+            android:text="We've send your money."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16sp"
+
+            android:text="Chase qickpay is better together with Zelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="28sp"
+            android:text="$ 1 .00"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/arrow"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="20dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:src="@drawable/initial"
+            android:layout_width="30dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Test User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15sp"
+                android:text="Transaction number"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="15sp"
+
+                android:text="123456"
+                android:gravity="center|right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:background="#808080"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="1dp"></View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Frequency"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Weekly"
+                android:gravity="center|right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:background="#808080"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:layout_height="1dp"></View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Send Notification"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="thursday of each week"
+                android:gravity="center|right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:background="#808080"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:layout_height="1dp"></View>
+
+        <Button
+            android:id="@+id/send_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_toEndOf="@+id/cancel_action"
+            android:width="180dp"
+            android:theme="@style/PrimaryButton"
+            android:text="Send money" />
+    </LinearLayout>
+
+</ScrollView>
